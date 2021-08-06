@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 import "./styles.css";
 
 const Markdownreact = () => {
-  const [markDown, setMarkDown] = useState("# Markdown Editor...\n## Edit to see magic happen!");
+  const [markDown, setMarkDown] = useState("# Markdown Editor.....\n## Edit to see magic happen!");
   return (
     <>
       <div className="center-div">
